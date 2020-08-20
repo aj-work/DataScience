@@ -1,0 +1,38 @@
+*{
+    margin:0 ; 
+    padding:0 ; 
+}
+
+.navbar{
+}
+
+.stheading{
+    background-color: greenyellow ;
+}
+
+
+.nav-list{
+    display: flex ;
+    flex-direction: row ; 
+    width: 100%;
+    background-color: pink ;
+
+}
+
+.nav-list li {
+
+    padding-left: 200px;
+    padding-right: 30px;
+
+}
+
+.log {
+ width: 100% ; 
+ background-color : blueviolet ;
+ text-align: center;
+}
+
+.forms{
+    background-color : yellow ;
+
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Family Tree </title>
+    <style>
+        body {background-color: powderblue;}
+        h1 {text-align: center;}
+        h1   {color: blue;}
+        p    {color: red;}
+        </style>
+</head>
+<body>
+    <h1 class="stheading"> Welcome to Family Tree </h1>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#Home">Home</a> </li>
+            <li><a href="#About">About</a> </li>
+            <li><a href="#People">People</a> </li>
+            <li><a href="#Contact Us">Contact us</a> </li>
+
+        </ul>
+        <div class="log"><img src="tree.jpg" alt="logo" style="width:350px;height:360px;"></div>
+
+        <form class="forms" action="action_page.php" target="_blank">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+
+            <label for="number_brothers">Number of Brothers :</label>
+            <input type="radio" id="0" name="number_brothers">
+            <lable for="0"> None </lable>
+            <input type="radio" id="1" name="number_brothers">
+            <lable for="0"> One </lable>
+            <input type="radio" id="2" name="number_brothers">
+            <lable for="0"> Two </lable>
+
+            <input type="submit" value="Submit">
+
+          </form>
+
+    </nav>
+
+</body>
+</html>
